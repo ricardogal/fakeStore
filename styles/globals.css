@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;600;700&display=swap');
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Helvetica";
+}
+
+.discover {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex;
+  border-top-width: 20px;
+  border-bottom: 20px solid #ddd;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  flex-wrap: row;
+  flex-grow: 4;
+  border-style: line;
+
+}  
+
+
+nav {
+  margin: 0px auto 0px;
+  padding: 0px 0;
+  display: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-bottom: 15px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background: #000000;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex;
+  border-bottom: 20px solid #ddd;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  flex-wrap: wrap;
+  
+
+}
+
+
+.footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+}
+
+img {
+  width:150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+
+
+details {
+  margin: 0px auto 80px;
+  padding: 10px 0;
+  display: center;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 20px solid #ddd;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  flex-direction: row;
+}
+
+.shopButton {
+  display: center;
+  color: rgb(255, 255, 255);
+  background: #ffffff;
+  flex-direction: column;
+  flex-wrap: space-around;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.container {
+  margin: 0px auto 0px;
+  padding: 0px 0;
+  display: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-bottom: 15px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background: #e9e9e9;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+
+.container2 {
+  margin: 0px auto 0px;
+  padding: 0px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-bottom: 0px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  flex-direction: row;
+  max-width : 800px;
+  border-style: initial;
+  border-radius: 5px;
+}
+
+.box {
+  border-style: outset;
+
+
+}
